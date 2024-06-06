@@ -1,0 +1,95 @@
+  .navbar {
+      text-align: center;
+  }
+
+  .navbar ul {
+      display: inline-block;
+      padding: 0;
+  }
+
+  .navbar li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+
+  .navbar li:last-child {
+      margin-right: 0;
+  }
+
+  .navbar a {
+      text-decoration: none;
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+  }
+
+  .title {
+      text-align: center;
+  }
+
+  .title h3 {
+      color: purple;
+      font-size: 50px;
+  }
+
+  .icerik {
+      width: 50%;
+      text-align: center;
+      transform: translate(50%, 0);
+      margin-right: 50%;
+  }
+
+
+  .icerik p,
+  .icerik a {
+      font-weight: bold;
+      margin: 0 100px;
+      font-size: large;
+      margin-top: 15px;
+  }
+
+  .urunler {
+
+      transform: translate(50%, 0);
+      margin-right: 50%;
+
+  }
+
+  .product {
+    padding:25px;
+    background-color: #0d2136;
+    border-radius: 15px;
+    margin-top:15px
+  }
+
+  .description {
+      margin-left: 20px;
+      width: 100%;
+      color: #fff;
+      min-width: 90px;
+  }
+
+  .description h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  .description p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+  }
+
+  .description a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+  }
+
+  .description a:hover {
+      background-color: #0056b3;
+  }
