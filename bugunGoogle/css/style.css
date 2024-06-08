@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 0;
+    flex-direction: row;
+}
+
+.header div {
+    display: flex;
+}
+
+.headerli {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.headerli a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+.btn a:hover {
+    text-decoration: none;
+}
+
+.sign-in-button {
+    display: inline-block;
+    padding: 8px 16px;
+
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #4285F4;
+    background-color: #4285F4;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.sign-in-button:hover {
+    background-color: #357ae8;
+    cursor: default;
+    /* Burada pointer olsaydı daha güzel olrdu ancak Google arşivinde böyle diye böyle yaptım*/
+}
+
+.container {
+    text-align: center;
+    margin-top: 89px;
+    margin-bottom:10px;
+}
+.container img{
+    width: 300px;
+}
+
+.search-area {
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 580px;
+}
+
+.search-area:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.search-img:hover .voice-search-tooltip {
+    display: block;
+}
+
+.search-img :hover {
+    cursor: pointer;
+}
+
+.voice-search-tooltip {
+    display: none;
+    background: rgb(45, 45, 45);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    left: 840px;
+    line-height: 29px;
+    padding: 0px 10px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    visibility: visible;
+    z-index: 2000;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+    box-sizing: border-box;
+}
+
+
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    background-color: transparent;
+    border: none;
+    width: 480px;
+}
+
+.googlesearch-feelinglucky {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px; /* Orjinal buttonlar böyle değildir ancak ödevde yapmamız gerektiği için ekledim */
+    border-radius: 4px;
+}
+
+.googlesearch-feelinglucky:hover {
+    border: 1px solid #cfcfcf !important;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+    list-style-type: none;
+}
+
+.footerli {
+    float: left;
+}
+
+.footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+}
+
+.footerli a:hover {
+    text-decoration: underline;
+}
